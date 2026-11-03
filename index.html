@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Интерактивная таблица Менделеева</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Периодическая таблица</h1>
+    <p>Нажмите на элемент, чтобы узнать историю открытия и свойства</p>
+  </header>
+
+  <main>
+    <div class="table-wrap">
+      <div id="periodic-table" class="periodic-table"></div>
+      <div id="f-block-container" class="f-block-container"></div>
+    </div>
+
+    <div id="legend" class="legend"></div>
+  </main>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <button id="modal-close" class="modal-close">&times;</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
