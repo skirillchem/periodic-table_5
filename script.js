@@ -193,7 +193,7 @@ function showElement(el) {
         <span class="value">${formatMass(el.mass) || '—'}</span>
       </div>
       <div class="prop">
-        <span class="label">Электроотрицательность</span>
+        <span class="label">ЭO</span>
         <span class="value">${fmt(el.electronegativity)}</span>
       </div>
       <div class="prop">
@@ -209,7 +209,7 @@ function showElement(el) {
         <span class="value">${state}</span>
       </div>
       <div class="prop">
-        <span class="label">Плотность (тв./жидк.)</span>
+        <span class="label">Плотность</span>
         <span class="value">${densityText}</span>
       </div>
     </div>
